@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
 import com.firebase.ui.auth.AuthUI;
 
 import demaikel.cie10favoritos.R;
@@ -20,9 +22,12 @@ public class LoginActivity extends AppCompatActivity implements LoginCallback{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         getSupportActionBar().hide();
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        AppEventsLogger.activateApp(this);
 
 
         new LoginValidation(this).init();
+
 
         }
 

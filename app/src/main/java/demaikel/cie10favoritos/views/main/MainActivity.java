@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -15,15 +13,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ProgressBar;
 
 import com.firebase.ui.auth.AuthUI;
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.github.ybq.android.spinkit.SpinKitView;
 import com.github.ybq.android.spinkit.style.DoubleBounce;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.database.FirebaseDatabase;
 
 import demaikel.cie10favoritos.R;
 import demaikel.cie10favoritos.adapters.TabAdapter;
@@ -38,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final SpinKitView progressBar = (SpinKitView) findViewById(R.id.progress_bar);
+        final SpinKitView progressBar = (SpinKitView) findViewById(R.id.spin_kit);
         DoubleBounce doubleBounce = new DoubleBounce();
         progressBar.setIndeterminateDrawable(doubleBounce);
 
