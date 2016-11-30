@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "916399958801",
+    "firebase_url": "https://cie10favoritos.firebaseio.com",
+    "project_id": "cie10favoritos",
+    "storage_bucket": "cie10favoritos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916399958801:android:f7511dcbdbc598fa",
+        "android_client_info": {
+          "package_name": "demaikel.cie10favoritos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916399958801-9mt2lnj7nkdg3gckoces04ohcbb3ulem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "demaikel.cie10favoritos",
+            "certificate_hash": "775ADD73770AD55A133095DD3D65B70631EE17AD"
+          }
+        },
+        {
+          "client_id": "916399958801-kj9uvtc94a8nhu3snfarkq1ku6adsu3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ9BUiWFg1aBImwR7yrFV2vZTpbBQoNfw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916399958801-kj9uvtc94a8nhu3snfarkq1ku6adsu3e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
